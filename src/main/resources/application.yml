@@ -1,0 +1,22 @@
+spring:
+    datasource:
+      ## PostgreSQL
+      url: jdbc:postgresql://localhost:5432/base
+      username: admin
+      password: admin
+      ## default connection pool
+      hikari:
+        connection-timeout: 20000
+        maximum-pool-size: 5
+        auto-commit: false
+    jpa:
+      hibernate:
+        ddl-auto: validate
+        show-sql: true
+      properties:
+        hibernate:
+          temp:
+            use_jdbc_metadata_defaults: false
+        database-platform: org.hibernate.dialect.PostgreSQL9Dialect
+    liquibase:
+      change-log: classpath:/liquibase/master.xml
