@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                   xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.8.xsd">
+    <changeSet author="Alexandre Costa" id="201911162049000-01">
+        <createTable tableName="tb_user" schemaName="public">
+            <column name="id_user" type="BIGINT">
+                <constraints primaryKey="true" nullable="false"/>
+            </column>
+
+            <column name="ds_fullname" type="VARCHAR2(500 )" remarks="">
+                <constraints nullable="false"/>
+            </column>
+
+            <column name="ds_username" type="VARCHAR2(500 )" remarks="">
+                <constraints nullable="false"/>
+            </column>
+
+            <column name="ds_password" type="VARCHAR2(100)" remarks="">
+                <constraints nullable="false"/>
+            </column>
+
+            <column name="ds_enabled" type="BOOLEAN" remarks="">
+                <constraints nullable="false"/>
+            </column>
+
+            <column name="nu_cnpj" type="VARCHAR2(500)" remarks="">
+                <constraints nullable="false"/>
+            </column>
+
+            <column name="ds_type" type="VARCHAR2(500)" remarks="">
+                <constraints nullable="false"/>
+            </column>
+        </createTable>
+
+        <createSequence sequenceName="sq_user"
+                        startValue="3" incrementBy="1"/>
+    </changeSet>
+</databaseChangeLog>

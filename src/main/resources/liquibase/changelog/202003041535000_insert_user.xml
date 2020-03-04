@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                   xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.8.xsd">
+    <changeSet author="Alexandre Costa" id="201912042128000-01">
+        <sql>
+            INSERT INTO tb_user(id_user, ds_fullname, ds_username, ds_password, ds_enabled, nu_cnpj, ds_type)VALUES(1, 'Alexandre Ferreira Costa', 'alexandre', '123', '0', '99999999999999', 'adm');
+            INSERT INTO tb_user(id_user, ds_fullname, ds_username, ds_password, ds_enabled, nu_cnpj, ds_type)VALUES(2, 'Jose Ilson Costa', 'jose', '123', '0', '13782384000193', 'usr');
+        </sql>
+    </changeSet>
+</databaseChangeLog>
