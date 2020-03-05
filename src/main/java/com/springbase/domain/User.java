@@ -1,4 +1,4 @@
-package com.br.smartzune.smartzune.domain;
+package com.springbase.domain;
 
 import lombok.Getter;
 import lombok.Setter;

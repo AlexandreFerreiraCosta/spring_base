@@ -2,11 +2,7 @@
 <databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
                    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.8.xsd">
-    <include file="liquibase/changelog/201911162049000_create_tb_user.xml" relativeToChangelogFile="false"/>
-    <include file="liquibase/changelog/201911120004000_create_tb_company.xml" relativeToChangelogFile="false"/>
-    <include file="liquibase/changelog/201912042126000_create_tb_sector.xml" relativeToChangelogFile="false"/>
-    <include file="liquibase/changelog/201912042127000_create_tb_order_production.xml" relativeToChangelogFile="false"/>
-    <include file="liquibase/changelog/201912042128000_create_rl_order_producao_sector.xml" relativeToChangelogFile="false"/>
-    <include file="liquibase/changelog/202002052124000_insert_user.xml" relativeToChangelogFile="false"/>
+    <include file="liquibase/changelog/202003041530000_create_tb_user.xml" relativeToChangelogFile="false"/>
+    <include file="liquibase/changelog/202003041535000_insert_user.xml" relativeToChangelogFile="false"/>
 
 </databaseChangeLog>

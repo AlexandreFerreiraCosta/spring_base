@@ -2,7 +2,7 @@
 <databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
                    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
                    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.8.xsd">
-    <changeSet author="Alexandre Costa" id="201911162049000-01">
+    <changeSet author="Alexandre Costa" id="202003041530000-01">
         <createTable tableName="tb_user" schemaName="public">
             <column name="id_user" type="BIGINT">
                 <constraints primaryKey="true" nullable="false"/>
