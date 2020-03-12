@@ -23,7 +23,7 @@ Utilize o comando abaixo para subir os containers
     $ docker-compose -f docker-compose.yml up -d --build
 ```` 
 
-O backend pode ser iniciado localmente fora da IDE através do comando dentro do diretório servico:
+A aplicação pode ser iniciado localmente fora da IDE através do comando dentro do diretório spring_base:
 
 ```` Java
     $ ./mvnw
