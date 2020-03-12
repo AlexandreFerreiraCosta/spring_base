@@ -14,8 +14,9 @@ Este projeto utiliza:
 Premissas
 * JDK 8 instalada
 * Docker instalado
+* Git instalado
 
-Na pasta **docker** localizado em na raiz do repositório existe um docker compose que já prepara os containers necessários para a aplicação executar.
+Na pasta **docker** localizado na raiz do repositório existe um docker compose que já prepara o containe necessários para a aplicação executar.
 Utilize o comando abaixo para subir os containers
 
 ```` Java
