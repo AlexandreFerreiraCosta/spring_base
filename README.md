@@ -20,7 +20,7 @@ Na pasta **docker** localizado na raiz do repositório existe um docker compose 
 Utilize o comando abaixo para subir os containers
 
 ```` Java
-    $ docker-compose -f docker-compose.yml up -d
+    $ docker-compose -f docker-compose.yml up -d --build
 ```` 
 
 O backend pode ser iniciado localmente fora da IDE através do comando dentro do diretório servico:
