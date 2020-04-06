@@ -1,6 +1,6 @@
 # Base spring project 
 
-Esta aplicação tem por objetivo geral fornecer um projeto base do Spring Boot.7
+Esta aplicação tem por objetivo geral fornecer um projeto base do Spring Boot.
 
 Sera efetuado melhorias no projeto.
 
