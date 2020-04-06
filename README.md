@@ -1,5 +1,8 @@
 # Base spring project 
-BASE SPRING PROJECT
+
+Esta aplicação tem por objetivo geral fornecer um projeto base do Spring Boot.7
+
+Sera efetuado melhorias no projeto.
 
 ## Setup do ambiente de desenvolvimento
 
