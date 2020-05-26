@@ -1,22 +1,20 @@
 package com.springbase.service.impl;
 
 
+import java.util.List;
+
+import org.springframework.stereotype.Service;
+
 import com.springbase.repository.UserRepository;
 import com.springbase.service.UserService;
 import com.springbase.service.dto.UserListDTO;
 import com.springbase.service.mapper.UserMapper;
-import lombok.RequiredArgsConstructor;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
-import org.springframework.data.domain.Pageable;
-import org.springframework.stereotype.Service;
 
-import java.util.List;
+import lombok.RequiredArgsConstructor;
 
 @Service
 @RequiredArgsConstructor
 public class UserServiceImpl implements UserService {
-    private final Logger log = LoggerFactory.getLogger(UserServiceImpl.class);
 
     private final UserRepository userRepository;
 

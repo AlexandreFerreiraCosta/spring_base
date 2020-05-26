@@ -1,11 +1,11 @@
 package com.springbase.service.mapper;
 
-import com.springbase.domain.User;
-import com.springbase.service.dto.UserDTO;
-import com.springbase.service.dto.UserListDTO;
+import java.util.List;
+
 import org.mapstruct.Mapper;
 
-import java.util.List;
+import com.springbase.domain.User;
+import com.springbase.service.dto.UserListDTO;
 
 @Mapper(componentModel = "spring", uses = {})
 public interface UserMapper {

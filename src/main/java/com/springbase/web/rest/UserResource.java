@@ -14,14 +14,11 @@ import org.springframework.web.bind.annotation.RestController;
 
 import java.util.List;
 
-
 @RestController
 @RequestMapping("/api")
 @AllArgsConstructor
 public class UserResource {
     private final Logger log = LoggerFactory.getLogger(User.class);
-
-    private static final String ENTITY_NAME = "user";
 
     private final UserService userService;
 
